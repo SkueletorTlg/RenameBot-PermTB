@@ -1,7 +1,7 @@
 class script(object):
     START_TEXT = """¡Hola, mi principal función es renombrar archivos!
     	    
-<b>¡Envíame cualquier archivo de Telegram y elige la opción adecuada!</b>
+<b>¡Envíame cualquier archivo de Telegram y elige la opción que desees!</b>
 Escriba /help para más información."""
 
     RENAME_403_ERR = "Perdón, tú no tienes permitido renombrar este archivo"
