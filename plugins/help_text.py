@@ -47,19 +47,11 @@ def send_start(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('🤖 Otros bots 🤖', url='https://t.me/BotsDeAyuda'),
-                    InlineKeyboardButton('❤️ Califícame', url='https://t.me/tlgrmcbot?start=renamearchive_bot-review')
-                ],
-                [
-                    InlineKeyboardButton('📢 Canales', url='https://t.me/CanalesFamosos'),
-                    InlineKeyboardButton('👤 Soporte', url='https://t.me/DKzippO')
-                ]
-            ]
-        ),
-        reply_to_message_id=update.message_id
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text='🤖 Otros bots', url='https://t.me/BotsDeAyuda')],
+                                                [InlineKeyboardButton(text='👤 Soporte', url='https://t.me/DKzippO')]]),
+        parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True  
     )
 
 
