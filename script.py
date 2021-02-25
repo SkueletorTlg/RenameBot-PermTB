@@ -1,20 +1,21 @@
 class script(object):
-    START_TEXT = """ A Simple File Renamer Bot With Permanent Thumbnail support!💯
+    START_TEXT = """¡Hola, mi principal función es renombrar archivos!
+    	    
+<b>¡Envíame cualquier archivo de Telegram y elige la opción adecuada!</b>
+Escriba /help para más información."""
 
-<b>Send me any Telegram file and choose appropriate option! </b>"""
-
-    RENAME_403_ERR = "What Are You Doing? You are Banned"
-    UPGRADE_TEXT = "CONTACT @prgofficial"
-    DOWNLOAD_START = "Give Me Some Time..."
-    UPLOAD_START = "Starting to upload..."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @prgofficial **"
-    SAVED_THUMB = "Thumbnail Saved ✅ This Is Permanent"
-    DEL_THUMB = "Thumbnail cleared succesfully!"
-    NO_THUMB = "No thumbnails found!"
-    SAVED_RECVD_DOC_FILE = "File Downloaded Successfully 😎"
-    CUSTOM_CAPTION_UL_FILE = " "
-    HELP_USER = """It's not that complicated😅
+    RENAME_403_ERR = "Perdón, tú no tienes permitido renombrar este archivo"
+    UPGRADE_TEXT = "Habla con @DKzippO para negociar 🌚"
+    DOWNLOAD_START = "😌 Intentando descargar a mi base de datos, espere por favor..."
+    UPLOAD_START = "<b>😀 La descarga ha terminado, estoy intentando subir el archivo a Telegram...</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Gracias por usarme 🤓</b>\n Por favor, califícame si me encuentras útil: https://t.me/tlgrmcbot?start=renamearchive_bot-review ❤️"
+    SAVED_THUMB = "<b>Miniatura personalizada guardada ✅ Esto es permanente hasta que escribas</b>"
+    DEL_THUMB = "Miniatura borrada con éxito 🤦"
+    NO_THUMB = "No se encontraron miniaturas personalizadas"
+    SAVED_RECVD_DOC_FILE = "<b>Archivo descargado correctamente 😎</b>"
+    CUSTOM_CAPTION_UL_FILE = "Renombrado con: @RenameArchive_bot ❤️"
+    HELP_USER = """<b>El modo de uso del bot es el siguiente 🤓:</b>
     
-1. Send me any Telegram File.
-2. Choose appropriate option."""
-
+🔹1. Envíe una foto para usarla como miniatura personalizada.
+🔹1. Envíame cualquier archivo de Telegram.
+🔹3. Elija la opción adecuada."""
