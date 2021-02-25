@@ -45,7 +45,7 @@ def send_start(bot, update):
         chat_id=update.chat.id,
         text=script.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👤 Soporte", url="https://t.me/DKzippO")]
-                                                [InlineKeyboardButton(text="📢 Canales", url="https://t.me/CanalesFamosos"]),
+                                                [InlineKeyboardButton(text="📢 Canales", url="https://t.me/CanalesFamosos")],
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
