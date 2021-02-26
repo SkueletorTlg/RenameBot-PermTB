@@ -52,7 +52,7 @@ def send_start(bot, update):
                 ],
                 [
                   InlineKeyboardButton(text="📢 Canales", url="https://t.me/CanalesFamosos"),
-                  InlineKeyboardButton(text="🤖 Otros bots", url="https://t.me/BotsDeAyuda)
+                  InlineKeyboardButton(text="🤖 Otros bots", url="https://t.me/BotsDeAyuda")
                 ]
             ]
         ),
