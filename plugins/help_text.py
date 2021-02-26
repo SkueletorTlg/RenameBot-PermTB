@@ -75,7 +75,7 @@ async def rename_cb(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text="""<b>Nombre del archivo</b> : <code>{}</code> \n\nSeleccione la opción deseada a continuación 😇""".format(filename),
+        text="""<b>✏️ Nombre del archivo</b> : <code>{}</code> \n\nSeleccione la opción deseada a continuación 😇""".format(filename),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📝 RENOMBRAR 📝", callback_data="rename_button")],
                                                 [InlineKeyboardButton(text="✖️ CANCELAR ✖️", callback_data="cancel_e")]]),
         parse_mode="html",
